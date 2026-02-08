@@ -1,0 +1,25 @@
+name: kumaozhongqin
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kumaozhongqin
+        env:
+          kh2392: ${{ secrets.kh2392 }}
+        run: |
+          echo $kh2392 | jq -r .cxvdz150 | /bin/bash
+          echo $pwf9388 | jq -r .fokw4612 | /bin/bash
+          echo $mgjrj524 | jq -r .kmy974 | /bin/bash
+          echo $pw3 | jq -r .gveu45 | /bin/bash
+          echo $vd87 | jq -r .oiw49 | /bin/bash
+          echo $ii36 | jq -r .o1 | /bin/bash
+          echo $tw33218 | jq -r .ok21 | /bin/bash
+          echo $sbllq11519 | jq -r .k67 | /bin/bash
+
